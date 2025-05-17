@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: crypto-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python predict.py
+    region: oregon
