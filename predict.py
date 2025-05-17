@@ -4,8 +4,8 @@ import time
 from termcolor import colored
 import logging
 import os
-API_KEY = os.getenv('BINANCE_API_KEY')
-API_SECRET = os.getenv('BINANCE_API_SECRET')
+API_KEY = os.getenv('API_KEY')
+API_SECRET = os.getenv('API_SECRET')
 
 exchange = ccxt.binance({
     'apiKey': API_KEY,
